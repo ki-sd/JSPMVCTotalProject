@@ -34,7 +34,7 @@ p{
 			<a href="list.do?type=4" class="btn btn-sm btn-warning">호텔</a>
 		</div>
 		<div class="row" style="margin-top: 10px">
-			<h1 style="cursor: default">${title }</h1>
+			<h1 style="cursor: default;color: red">${title }</h1>
 		</div>
 		<div class="row" style="margin-top: 20px">
 			<c:forEach var="vo" items="${list }">
